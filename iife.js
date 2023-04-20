@@ -1,6 +1,5 @@
-;(function () {
+const app = (function() {
     const cars = []
-    
     return {
         get(index) {
             return cars[index]
@@ -15,4 +14,8 @@
             cars.splice(index,1)
         }
     }
-})
+})()
+console.log(111)
+app.add('BMW')
+app.add('Mazda')
+console.log(app.get(0))
