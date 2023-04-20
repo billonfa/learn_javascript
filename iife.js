@@ -15,7 +15,7 @@ const app = (function() {
         }
     }
 })()
-console.log(111)
-app.add('BMW')
-app.add('Mazda')
-console.log(app.get(0))
+// console.log(111)
+// app.add('BMW')
+// app.add('Mazda')
+// console.log(app.get(0))
